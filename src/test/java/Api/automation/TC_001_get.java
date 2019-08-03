@@ -13,4 +13,10 @@ public void getvalidation()
 	Response res=RestAssured.get("http://services.groupkt.com/country/get/iso2code/IN ");
 System.out.println(res.asString());
 }
+	@Test
+public void getvalidation_1()
+{
+	Response res=RestAssured.get("http://services.groupkt.com/country/get/iso2code/IN ");
+System.out.println(res.asString());
+}
 }
